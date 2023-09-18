@@ -21,6 +21,7 @@ h1 {
     font-size: 200%;
 }
 
+/* Main Game Area */
 .game-area {
     background-image: url(../images/background.jpg);
     width: 800px;
@@ -62,6 +63,7 @@ h1 {
     color: #f2c300;
 }
 
+/* Players choice buttons */
 .player-buttons {
     display: flex;
     justify-content: center;
@@ -81,6 +83,7 @@ h1 {
     border-radius: 5px;
 }
 
+/* Score area */
 .scoreboard {
     text-align: center;
     font-size: 200%;
@@ -99,6 +102,7 @@ h1 {
     font-weight: bold;
 }
 
+/* Reset button */
 .reset {
     display: flex;
     justify-content: center;
@@ -117,6 +121,7 @@ h1 {
     border-radius: 50px;
 }
 
+/* How to play area */
 .rules {
     text-align: center;
     background: #f2c300;
@@ -135,11 +140,13 @@ h1 {
     font-size: 200%;
 }
 
+/* Rules Image */
 .game-rules {
     width: 280px;
     height: 200px;
 }
 
+/* Makes image bigger when hovered over or clicked on smaller screens */
 .game-rules:hover {
     width: 600px;
     height: 400px;
