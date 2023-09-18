@@ -20,3 +20,39 @@ h1 {
     margin-bottom: 20px;
     font-size: 200%;
 }
+
+.game-area {
+    background-image: url(../images/background.jpg);
+    width: 800px;
+    height: 700px;
+    margin: auto;
+}
+
+.overlay {
+    width: 800px;
+    height: 700px;
+    margin: auto;
+    background: #00000099;
+}
+
+
+.main-play {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-top: 50px;
+    gap: 30px;
+    font-size: 200%;
+    color: #df0000;
+}
+
+/* Media Queries */
+/* For small screens (max width: 500px) e.g galaxy fold, iPhones */
+@media screen and (max-width: 500px) {
+
+    .game-area,
+    .overlay {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
