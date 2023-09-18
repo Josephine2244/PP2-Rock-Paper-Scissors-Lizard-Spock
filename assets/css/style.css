@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Federant&family=Merriweather:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Merriweather, sans-serif;
+    color: white;
+}
+
+h1 {
+    font-family: Federant, sans- serif;
+    letter-spacing: 2px;
+    color: #df0000;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 200%;
+}
