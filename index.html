@@ -1,20 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Rock Paper Scissors Lizard Spock</title>
-</head>
-<body>
+  </head>
+  <body>
     <section class="title-area">
-        <h1>Rock Paper Scissors Lizard Spock</h1>
+      <h1>Rock Paper Scissors Lizard Spock</h1>
     </section>
-    <section class="game-area"></section>
+    <section class="game-area">
+      <div class="overlay">
+        <div class="main-play">
+          <h2>You: <span id="player-choice"></span></h2>
+          <h2>Host: <span id="host-choice"></span></h2>
+        </div>
+        <div class="result">
+          <h2>Result: <span id="result"></span></h2>
+        </div>
+
+        <div class="player-buttons">
+          <button class="player" id="rock">Rock ⛰️</button>
+          <button class="player" id="paper">Paper 📃</button>
+          <button class="player" id="scissors">Scissors ✂️</button>
+          <button class="player" id="lizard">Lizard 🦎</button>
+          <button class="player" id="spock">Spock 🖖</button>
+        </div>
+
+        <div class="scoreboard">
+          <h3>Scores</h3>
+        </div>
+        <div class="scores">
+          <p>You: <span id="player-score">0</span></p>
+          <p>Host: <span id="host-score">0</span></p>
+        </div>
+        <div>
+          <button></button>
+        </div>
+      </div>
+    </section>
     <section class="rules"></section>
 
     <!-- script.js -->
     <script src="assets/js/script.js"></script>
-</body>
+    <!-- Font Awesome script -->
+    <script
+      src="https://kit.fontawesome.com/2327dee0b2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
