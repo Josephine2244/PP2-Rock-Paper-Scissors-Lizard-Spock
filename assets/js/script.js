@@ -13,6 +13,8 @@ Array.from(playerOptions).forEach(playerOption => playerOption.addEventListener(
     whoWins();
 }));
 
+document.getElementById('reset').addEventListener('click', resetScore);
+
 function randomHostChoice() {
     const randomNumber = Math.floor(Math.random() * playerOptions.length) + 1;
 
@@ -100,6 +102,11 @@ function whoWins() {
         result = 'You Win!';
     }
     displayResult.innerHTML = result;
+    if (result === 'You Win!') {
+        playerScore()
+    } else if (result === 'Better Luck Next Time.') {
+        hostScore();
+    }
 }
 
 function playerScore() {
@@ -113,5 +120,6 @@ function hostScore() {
 }
 
 function resetScore() {
-
+    document.getElementById('player-score').innerText = 0;
+    document.getElementById('host-score').innerText = 0;
 }
