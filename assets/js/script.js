@@ -6,6 +6,7 @@ let playerChoice;
 let hostChoice;
 let result;
 
+// When player clicks button, host choice will appear and game will be played //
 Array.from(playerOptions).forEach(playerOption => playerOption.addEventListener('click', (event) => {
     playerChoice = event.target.textContent;
     displayPlayerChoice.innerHTML = playerChoice;
@@ -13,8 +14,10 @@ Array.from(playerOptions).forEach(playerOption => playerOption.addEventListener(
     whoWins();
 }));
 
+// Scores will reset when reset button is clicked //
 document.getElementById('reset').addEventListener('click', resetScore);
 
+// How the host makes its random choice //
 function randomHostChoice() {
     const randomNumber = Math.floor(Math.random() * playerOptions.length) + 1;
 
@@ -36,6 +39,7 @@ function randomHostChoice() {
     displayHostChoice.innerHTML = hostChoice;
 }
 
+// How the game determines who wins //
 function whoWins() {
     if (hostChoice === playerChoice) {
         result = 'Its a Tie!';
@@ -109,16 +113,19 @@ function whoWins() {
     }
 }
 
+// Incrementing players score when they win //
 function playerScore() {
     let oldScore = parseInt(document.getElementById('player-score').innerText);
     document.getElementById('player-score').innerText = ++oldScore;
 }
 
+// Incrementing host score when they win //
 function hostScore() {
     let oldScore = parseInt(document.getElementById('host-score').innerText);
     document.getElementById('host-score').innerText = ++oldScore;
 }
 
+// Reset scores to 0 when function is called //
 function resetScore() {
     document.getElementById('player-score').innerText = 0;
     document.getElementById('host-score').innerText = 0;
