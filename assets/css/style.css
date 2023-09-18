@@ -38,12 +38,28 @@ h1 {
 
 .main-play {
     display: flex;
+    flex-direction: column;
     align-items: center;
     flex-wrap: nowrap;
     padding-top: 50px;
     gap: 30px;
     font-size: 200%;
     color: #df0000;
+}
+
+.main-play span {
+    color: white;
+    margin-left: 50px;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 40px;
+    font-size: 175%;
+    color: #f2c300;
 }
 
 /* Media Queries */
