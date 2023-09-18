@@ -1,39 +1,56 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">Rock, Paper, Scissors, Lizard, Spock</h1>
+[View Live Project here]
 
-Welcome,
+This is a fun, interactive, online game that gives players the chance to play against the computer in a non-traditional twist on the game of rock, paper, scissors.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Table of Contents
+1. [User Stories](#user-stories)
+2. [Features](#features)
+3. [Typography and Color Scheme](#typography-and-color-scheme)
+4. [Wireframes](#wireframes)
+5. [Technology](#technology)
+6. [Testing](#testing)
+7. [Deployment](#deployment)
+8. [Credits](#credits)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+# User Stories
+## First Time User Stories
+- I want to play the game against the computer.
+- I want the game controls to be easy to understand.
+- I want to keep score of each win.
+- I want to have instructions of which play beats which.
+- I want to be able to reset the scores and start again.
 
-## Codeanywhere Reminders
+## Returning User Stories
+- I want to be able to navigate the game easily and play repeatedly without issue.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+# Features
+## Future Features
+- Multiplayer: The ability to play with another person (online or using the same device) instead of always playing the computer.
+- Different difficulty levels: Easy (original rock, paper, scissors), Medium (Current game), Hard (add more icons and rules).
 
-`python3 -m http.server`
+# Typography and Color Scheme
+The fonts I chose are Federant and Merriweather. Federant is very similar to the Star Trek font which keeps the game on theme due to the addition of the Spock element. I also chose the color scheme based on a color palette created from Star Trek main colors. These colors are vibrant and eyecatching to grab the attention of the user.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![color-palette](https://github.com/Josephine2244/rock-paper-scissors-lizard-spock/assets/137813807/f1542fce-a807-4c9a-8bd5-b34acf0daffa)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+# Wireframes
 
-`http_server`
+![Game Browser View](https://github.com/Josephine2244/rock-paper-scissors-lizard-spock/assets/137813807/938f6eac-68c3-49a6-8f65-0490f8cdc355)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# Technology
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+# Testing
+## Code Validation
+## Test Cases
+## Fixed Bugs
+## Supported Screens and Browsers
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+# Deployment
+## via CodeAnywhere
+## via Github
 
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+# Credits
+- Color Palette - View Original [here](https://www.color-hex.com/color-palette/6450)
+- Game Background Image - View Image [here](https://e0.pxfuel.com/wallpapers/1017/730/desktop-wallpaper-warp-speed-need-for-speed-heat-6.jpg)
+- Emoji Icons - [here](https://emojipedia.org)
