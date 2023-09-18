@@ -11,6 +11,7 @@
     <section class="title-area">
       <h1>Rock Paper Scissors Lizard Spock</h1>
     </section>
+    <!-- Main game area -->
     <section class="game-area">
       <div class="overlay">
         <div class="main-play">
@@ -20,7 +21,7 @@
         <div class="result">
           <h2>Result: <span id="result"></span></h2>
         </div>
-
+        <!-- The buttons the players use to make their selection -->
         <div class="player-buttons">
           <button class="player" id="rock">Rock ⛰️</button>
           <button class="player" id="paper">Paper 📃</button>
@@ -29,6 +30,7 @@
           <button class="player" id="spock">Spock 🖖</button>
         </div>
 
+        <!-- Score Area -->
         <div class="scoreboard">
           <h3>Scores</h3>
         </div>
@@ -36,6 +38,8 @@
           <p>You: <span id="player-score">0</span></p>
           <p>Host: <span id="host-score">0</span></p>
         </div>
+
+        <!-- Reset button -->
         <div class="reset">
           <button aria-label="reset" class="reset-button" id="reset" onclick="resetScore()">
             <i class="fa-solid fa-rotate"></i>
@@ -43,6 +47,8 @@
         </div>
       </div>
     </section>
+
+    <!-- How to play Rules image -->
     <section class="rules">
       <h2>How To Play</h2>
       <img
