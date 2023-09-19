@@ -11,16 +11,18 @@ const SCISSORS_TXT = 'Scissors ✂️';
 const LIZARD_TXT = 'Lizard 🦎';
 const SPOCK_TXT = 'Spock 🖖';
 
+/** Game will start once player makes their choice */
 function initialGame() {
-    /** When player clicks button, host choice will appear and game will be played */
     Array.from(playerOptions).forEach(playerOption => playerOption.addEventListener('click', onPlayerOptionClick));
 
     /** Scores will reset when reset button is clicked */
     document.getElementById('reset').addEventListener('click', resetScore);
 }
 
+/** Game will play once all other content is loaded */
 addEventListener('DOMContentLoaded', initialGame);
 
+/** When player clicks button, host choice will appear and game will be played */
 function onPlayerOptionClick(event) {
     playerChoice = event.target.textContent;
     displayPlayerChoice.innerHTML = playerChoice;
