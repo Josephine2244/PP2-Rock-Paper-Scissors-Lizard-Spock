@@ -12,10 +12,10 @@ const LIZARD_TXT = 'Lizard 🦎';
 const SPOCK_TXT = 'Spock 🖖';
 
 function initialGame() {
-    // When player clicks button, host choice will appear and game will be played //
+    /** When player clicks button, host choice will appear and game will be played */
     Array.from(playerOptions).forEach(playerOption => playerOption.addEventListener('click', onPlayerOptionClick));
 
-    // Scores will reset when reset button is clicked //
+    /** Scores will reset when reset button is clicked */
     document.getElementById('reset').addEventListener('click', resetScore);
 }
 
@@ -28,7 +28,7 @@ function onPlayerOptionClick(event) {
     whoWins();
 }
 
-// How the host makes its random choice //
+/** How the host makes its random choice */
 function randomHostChoice() {
     const randomNumber = Math.floor(Math.random() * playerOptions.length) + 1;
 
@@ -50,7 +50,7 @@ function randomHostChoice() {
     displayHostChoice.innerHTML = hostChoice;
 }
 
-// How the game determines who wins //
+/** How the game determines who wins */
 function whoWins() {
     if (hostChoice === playerChoice) {
         result = 'Its a Tie!';
@@ -103,19 +103,19 @@ function whoWins() {
     }
 }
 
-// Incrementing players score when they win //
+/** Incrementing players score when they win */
 function playerScore() {
     let oldScore = parseInt(document.getElementById('player-score').innerText);
     document.getElementById('player-score').innerText = ++oldScore;
 }
 
-// Incrementing host score when they win //
+/** Incrementing host score when they win */
 function hostScore() {
     let oldScore = parseInt(document.getElementById('host-score').innerText);
     document.getElementById('host-score').innerText = ++oldScore;
 }
 
-// Reset scores to 0 when function is called //
+/** Reset scores to 0 when function is called */
 function resetScore() {
     document.getElementById('player-score').innerText = 0;
     document.getElementById('host-score').innerText = 0;
