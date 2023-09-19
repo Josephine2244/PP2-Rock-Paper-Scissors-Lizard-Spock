@@ -14,6 +14,12 @@
     <!-- Main game area -->
     <section class="game-area">
       <div class="overlay">
+        <nav class="nav-bar">
+          <ul>
+            <li><a href="index.html">Play Game</a></li>
+            <li><a href="#rules">How To Play</a></li>
+          </ul>
+        </nav>
         <div class="main-play">
           <h2>You: <span id="player-choice"></span></h2>
           <h2>Host: <span id="host-choice"></span></h2>
@@ -54,14 +60,62 @@
     </section>
 
     <!-- How to play Rules image -->
-    <section class="rules">
+    <section id="rules" class="rules">
       <h2>How To Play</h2>
-      <img
-        class="game-rules"
-        src="assets/images/game-rules.png"
-        alt="Game Rules"
-      />
+      <ul class="game-rules">
+        <li>Scissors cuts Paper</li>
+        <li>Paper covers Rock</li>
+        <li>Rock crushes Lizard</li>
+        <li>Lizard Poisons Spock</li>
+        <li>Spock smashes Scissors</li>
+        <li>Scissors decapitates Lizard</li>
+        <li>Lizard eats Paper</li>
+        <li>Paper disproves Spock</li>
+        <li>Spock vaporizes Rock</li>
+        <li>Rock crushes Scissors</li>
+      </ul>
     </section>
+    <footer class="footer">
+      <ul class="socials">
+        <li>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Check out our Facebook Page (This will open in a new tab)"
+            ><i class="fa-brands fa-square-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Check out our Instagram Page (This will open in a new tab)"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.twitter.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Check out our Twitter Page (This will open in a new tab)"
+            ><i class="fa-brands fa-square-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.tiktok.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Check out our TikTok Page (This will open in a new tab)"
+            ><i class="fa-brands fa-tiktok"></i
+          ></a>
+        </li>
+      </ul>
+      <p class="copyright">&copy; Copyright 2023 RPSLS</p>
+    </footer>
 
     <!-- script.js -->
     <script src="assets/js/script.js"></script>

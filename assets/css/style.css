@@ -140,22 +140,17 @@ h1 {
     font-size: 200%;
 }
 
-/* Rules Image */
+/* Rules Section */
 .game-rules {
     width: 280px;
-    height: 200px;
+    color: black;
+    font-size: 150%;
+    text-align: center;
+    list-style-type: none;
+    padding-bottom: 20px;
 }
 
-/* Makes image bigger when hovered over or clicked on smaller screens */
-.game-rules:hover {
-    width: 600px;
-    height: 400px;
-}
-
-.rules:hover {
-    width: 600px;
-    height: 500px;
-}
+/* Footer */
 
 /* Media Queries */
 /* For small screens (max width: 550px) e.g galaxy fold, iPhones, surface duo */
@@ -183,8 +178,8 @@ h1 {
     }
 
     .reset-button {
-        font-size: 100%;
-        width: 35px;
-        height: 35px;
+        font-size: 150%;
+        width: 45px;
+        height: 45px;
     }
 }
