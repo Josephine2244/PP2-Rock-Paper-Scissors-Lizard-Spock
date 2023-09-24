@@ -66,7 +66,7 @@ At the bottom of the game area I have included a reset button so players can res
 ## How to Play Section
 This section contains an image explaining how the symbols interact with eachother. This image will also zoom when hovered over (or clicked on smaller screens), and has a contrasting background color to make it easier to read.
 
-![RPSLS How to Play](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/e7067bf0-5176-45a4-ad01-2a65ab190340)
+![RPSLS How to Play](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/6e27d24d-0ccf-4b7c-b646-0fa92a4809f6)
 
 # Future Features
 - Multiplayer: The ability to play with another person (online or using the same device) instead of always playing the computer.
@@ -129,8 +129,7 @@ The fonts I chose are Federant and Merriweather. Federant is very similar to the
 | 10 | Spock Button | Click button | 'Spock' and spock symbol are displayed in the 'You' section. Host has generated a random choice. Result is displayed appropriate message. Scores are incremented appropriately |
 | 11 | Scores section | Check appearance | Scores are legible and positioned appropriatelely. Scores increment correctly after each play |
 | 12 | Reset Button | Check appearance of button, click button | Button is clearly legible and positioned appropriately. Scores reset when button is clicked |
-| 13 | How to Play Image (desktop) | Check appearance, hover over image | Image is cearly legible and positioned appropriately. Images zooms in when mouse is hovered over |
-| 14 | How to Play Image (mobile) | Check appearance, click on image | Image is cearly legible and positioned appropriately. Images zooms in when clicked on |
+| 13 | How to Play | Check appearance | Image is cearly legible and positioned appropriately.|
 
 ### 01
 ![RPSLS Title](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/b77569dc-f37c-4c04-aef6-dee4b0531947)
@@ -178,16 +177,7 @@ The fonts I chose are Federant and Merriweather. Federant is very similar to the
 ![Reset Button](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/da699bfd-276c-4226-821c-2543d2ef83db)
 
 ### 13
--Before Hover:
-
-![How to Play before hover](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/adbff24a-f8e9-462e-8b23-09d0840926dc)
-
--After Hover:
-
-![RPSLS How to Play](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/042db18d-2b94-4932-8e4e-fa87e232f06f)
-
-### 14
-![RPSLS How to Play](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/9a583959-37a8-4f6f-ac15-3da2a1357624)
+![RPSLS How to Play](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/f9573961-19fa-40f9-8c65-1891c93c621d)
 
 ## Fixed Bugs
 - Background image was too bold and made it hard to read the text. I added an overlay to dull the image and make the text more legible.
@@ -224,7 +214,6 @@ The fonts I chose are Federant and Merriweather. Federant is very similar to the
 # Credits
 - Color Palette - View Original [here](https://www.color-hex.com/color-palette/6450)
 - Game Background Image - View Image [here](https://e0.pxfuel.com/wallpapers/1017/730/desktop-wallpaper-warp-speed-need-for-speed-heat-6.jpg)
-- How to Play Image - View Image [here](https://www.google.com/url?sa=i&url=https%3A%2F%2Flivebook.manning.com%2Fget-programming-with-scala%2Fchapter-26%2Fv-7&psig=AOvVaw2iLs9P-cJL57przmRKNy0q&ust=1695142684250000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIjh3ODQtIEDFQAAAAAdAAAAABAJ)
 - Emoji Icons - [here](https://emojipedia.org)
 - Game Setup based on youtube video [here](https://www.youtube.com/watch?v=RwFeg0cEZvQ)
 - [Google Fonts](https://fonts.google.com/)
