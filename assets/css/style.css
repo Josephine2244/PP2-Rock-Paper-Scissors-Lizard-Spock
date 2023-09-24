@@ -25,13 +25,13 @@ h1 {
 .game-area {
     background-image: url(../images/background.jpg);
     width: 700px;
-    height: 750px;
+    height: 800px;
     margin: auto;
 }
 
 .overlay {
     width: 700px;
-    height: 750px;
+    height: 800px;
     margin: auto;
     background: #00000099;
 }
@@ -64,6 +64,7 @@ h1 {
 
 .result {
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
