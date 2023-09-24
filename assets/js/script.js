@@ -119,6 +119,8 @@ function hostScore() {
 
 /** Reset scores to 0 when function is called */
 function resetScore() {
+    if (confirm('Are you sure?') == true) {
     document.getElementById('player-score').innerText = 0;
-    document.getElementById('host-score').innerText = 0;
+    document.getElementById('host-score').innerText = 0;        
+    }
 }
