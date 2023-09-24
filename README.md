@@ -19,14 +19,14 @@ This is a fun, interactive, online game that gives players the chance to play ag
 
 # User Stories
 ## First Time User Stories
-- I want to play the game against the computer.
-- I want the game controls to be easy to understand.
-- I want to keep score of each win.
-- I want to have instructions of which play beats which.
-- I want to be able to reset the scores and start again.
+- As a first time user, I want to play the game against the computer.
+- As a first time user, I want the game controls to be easy to understand.
+- As a first time user, I want to keep score of each win.
+- As a first time user, I want to have instructions of which play beats which.
+- As a first time user, I want to be able to reset the scores and start again.
 
 ## Returning User Stories
-- I want to be able to navigate the game easily and play repeatedly without issue.
+- As a returning user, I want to be able to navigate the game easily and play repeatedly without issue.
 
 # Features
 ## Star Trek themed Title
