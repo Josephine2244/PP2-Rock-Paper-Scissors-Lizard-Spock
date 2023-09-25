@@ -91,6 +91,17 @@ h1 {
     height: 60px;
     padding: 5px;
     border-radius: 5px;
+    box-shadow: 0 9px #1b1b1b;
+}
+
+.player:hover {
+    background-color: #b80808;
+}
+
+.player:active {
+    background-color: #b80808;
+    box-shadow: 0 5px #0f0e0e;
+    transform: translateY(4px);
 }
 
 /* Score area */
@@ -122,6 +133,7 @@ h1 {
 
 .reset-button {
     font-size: 130%;
+    font-weight: bold;
     background: #00b844;
     color: black;
     display: flex;
@@ -131,6 +143,17 @@ h1 {
     height: 50px;
     padding: 5px;
     border-radius: 5px;
+    box-shadow: 0 9px #1b1b1b;
+}
+
+.reset-button:hover {
+    background-color: #058534;
+}
+
+.reset-button:active {
+    background-color: #058534;
+    box-shadow: 0 5px #1b1b1b;
+    transform: translateY(4px);
 }
 
 /* How to play area */
