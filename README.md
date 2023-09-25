@@ -1,7 +1,6 @@
 <h1 align="center">Rock, Paper, Scissors, Lizard, Spock</h1>
 
-![Responsive Image](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/31a42c89-a2a9-4adc-8755-16fd3adfe280)
-
+![Responsive Image](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/70f95fc6-8183-4e97-a7e6-f247d8369392)
 
 [View Live Project here](https://josephine2244.github.io/PP2-Rock-Paper-Scissors-Lizard-Spock/)
 
@@ -61,7 +60,7 @@ There is a scoreboard at the bottom of the game area so the player can keep trac
 ## Reset Button
 At the bottom of the game area I have included a reset button so players can reset the score and start again without having to refresh the page.
 
-![Reset Button](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/a02edbb4-10e3-4598-9b63-8af6dbd4d116)
+![Reset Button](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/eef61e10-c34f-4b70-abe3-49dbfeca3b11)
 
 ## How to Play Section
 This section contains an image explaining how the symbols interact with eachother. This image will also zoom when hovered over (or clicked on smaller screens), and has a contrasting background color to make it easier to read.
@@ -174,7 +173,7 @@ The fonts I chose are Federant and Merriweather. Federant is very similar to the
 ![Score Area](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/ab4a3e1a-a46b-4b69-ae76-4b2d9022af75)
 
 ### 12
-![Reset Button](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/da699bfd-276c-4226-821c-2543d2ef83db)
+![Reset Button](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/eef61e10-c34f-4b70-abe3-49dbfeca3b11)
 
 ### 13
 ![RPSLS How to Play](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/f9573961-19fa-40f9-8c65-1891c93c621d)
