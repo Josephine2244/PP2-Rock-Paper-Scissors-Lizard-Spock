@@ -33,11 +33,12 @@ function onPlayerOptionClick(event) {
 
 function completeRound() {
     if (document.getElementById('player-score').innerText === 5) {
-        alert('You Win the Round!');
+        return "You Win the Round! Reset Game to play again.";
     } else if (document.getElementById('host-score').innerText === 5) {
-        alert('The Host Wins the Round!');
+        return "The Host Wins the Round! Reset Game to play again";
     }
-    resetScore();
+    document.getElementById('player-score').innerText = 0;
+    document.getElementById('host-score').innerText = 0;
 }
 
 function firstToFive() {

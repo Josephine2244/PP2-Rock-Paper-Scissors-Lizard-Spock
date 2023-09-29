@@ -20,21 +20,6 @@ h1 {
     font-size: 200%;
 }
 
-/* Main Game Area */
-.game-area {
-    background-image: url(../images/background.jpg);
-    width: 700px;
-    height: 750px;
-    margin: auto;
-}
-
-.overlay {
-    width: 700px;
-    height: 750px;
-    margin: auto;
-    background: #00000099;
-}
-
 .nav-bar a {
     color: #0098f6d7;
     font-size: 130%;
@@ -57,6 +42,27 @@ h1 {
     height: 100px;
     background-color: black;
     margin-bottom: 50px;
+}
+
+/* Main Game Area */
+.game-area {
+    background-image: url(../images/background.jpg);
+    width: 700px;
+    height: 750px;
+    margin: auto;
+}
+
+.overlay {
+    width: 700px;
+    height: 750px;
+    margin: auto;
+    background: #00000099;
+}
+
+.rounds {
+    padding: 20px;
+    color: #0099f6;
+    font-size: 130%;
 }
 
 .main-play {
