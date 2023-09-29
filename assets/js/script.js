@@ -47,6 +47,9 @@ function firstToFive() {
     if (roundsPlayed === 9 || thePlayerScore === 5 || theHostScore === 5) {
         completeRound();
     }
+    if (thePlayerScore === 5) {
+        roundCounter();
+    }
 }
 
 /** How the host makes its random choice */
@@ -137,11 +140,17 @@ function hostScore() {
     document.getElementById('host-score').innerText = ++oldScore;
 }
 
+function roundCounter() {
+    let roundsPlayed = parseInt(document.getElementById('round-counter').innerText);
+    document.getElementById('round-counter').innerText = ++roundsPlayed;
+}
+
 /** Reset scores to 0 when function is called */
 function resetScore() {
     if (confirm('Are you sure?') == true) {
         document.getElementById('player-score').innerText = 0;
         document.getElementById('host-score').innerText = 0;
+        document.getElementById('round-counter').innerText = 0;
     }
 }
 
