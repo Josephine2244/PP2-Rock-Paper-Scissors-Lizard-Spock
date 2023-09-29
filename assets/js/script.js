@@ -17,7 +17,6 @@ const SPOCK_TXT = 'Spock 🖖';
 /** Game will start once player makes their choice */
 function initialGame() {
     Array.from(playerOptions).forEach(playerOption => playerOption.addEventListener('click', onPlayerOptionClick));
-
     /** Scores will reset when reset button is clicked */
     document.getElementById('reset').addEventListener('click', resetScore);
 }
