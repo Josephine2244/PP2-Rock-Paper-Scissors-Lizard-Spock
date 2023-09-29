@@ -5,6 +5,9 @@ let playerOptions = document.getElementsByClassName('player');
 let playerChoice = null;
 let hostChoice = null;
 let result = null;
+const winMessage = 'You Win!';
+const loseMessage = 'Better Luck Next Time.';
+const tieMessage = 'Its a Tie!';
 const ROCK_TXT = 'Rock ⛰️';
 const PAPER_TXT = 'Paper 📃';
 const SCISSORS_TXT = 'Scissors ✂️';
@@ -18,9 +21,6 @@ function initialGame() {
     /** Scores will reset when reset button is clicked */
     document.getElementById('reset').addEventListener('click', resetScore);
 }
-
-/** Game will play once all other content is loaded */
-addEventListener('DOMContentLoaded', initialGame);
 
 /** When player clicks button, host choice will appear and game will be played */
 function onPlayerOptionClick(event) {
@@ -55,52 +55,52 @@ function randomHostChoice() {
 /** How the game determines who wins */
 function whoWins() {
     if (hostChoice === playerChoice) {
-        result = 'Its a Tie!';
+        result = tieMessage;
     } else if (hostChoice === SCISSORS_TXT && playerChoice === PAPER_TXT) {
-        result = 'Better Luck Next Time.';
+        result = loseMessage;
     } else if (hostChoice === SCISSORS_TXT && playerChoice === LIZARD_TXT) {
-        result = 'Better Luck Next Time.';
+        result = loseMessage;
     } else if (hostChoice === PAPER_TXT && playerChoice === ROCK_TXT) {
-        result = 'Better Luck Next Time.';
+        result = loseMessage;
     } else if (hostChoice === PAPER_TXT && playerChoice === SPOCK_TXT) {
-        result = 'Better Luck Next Time.';
+        result = loseMessage;
     } else if (hostChoice === ROCK_TXT && playerChoice === LIZARD_TXT) {
-        result = 'Better Luck Next Time.';
+        result = loseMessage;
     } else if (hostChoice === ROCK_TXT && playerChoice === SCISSORS_TXT) {
-        result = 'Better Luck Next Time.';
+        result = loseMessage;
     } else if (hostChoice === LIZARD_TXT && playerChoice === SPOCK_TXT) {
-        result = 'Better Luck Next Time.';
+        result = loseMessage;
     } else if (hostChoice === LIZARD_TXT && playerChoice === PAPER_TXT) {
-        result = 'Better Luck Next Time.';
+        result = loseMessage;
     } else if (hostChoice === SPOCK_TXT && playerChoice === ROCK_TXT) {
-        result = 'Better Luck Next Time.';
+        result = loseMessage;
     } else if (hostChoice === SPOCK_TXT && playerChoice === SCISSORS_TXT) {
-        result = 'Better Luck Next Time.';
+        result = loseMessage;
     } else if (hostChoice === PAPER_TXT && playerChoice === SCISSORS_TXT) {
-        result = 'You Win!';
+        result = winMessage;
     } else if (hostChoice === LIZARD_TXT && playerChoice === SCISSORS_TXT) {
-        result = 'You Win!';
+        result = winMessage;
     } else if (hostChoice === ROCK_TXT && playerChoice === PAPER_TXT) {
-        result = 'You Win!';
+        result = winMessage;
     } else if (hostChoice === SPOCK_TXT && playerChoice === PAPER_TXT) {
-        result = 'You Win!';
+        result = winMessage;
     } else if (hostChoice === LIZARD_TXT && playerChoice === ROCK_TXT) {
-        result = 'You Win!';
+        result = winMessage;
     } else if (hostChoice === SCISSORS_TXT && playerChoice === ROCK_TXT) {
-        result = 'You Win!';
+        result = winMessage;
     } else if (hostChoice === SPOCK_TXT && playerChoice === LIZARD_TXT) {
-        result = 'You Win!';
+        result = winMessage;
     } else if (hostChoice === PAPER_TXT && playerChoice === LIZARD_TXT) {
-        result = 'You Win!';
+        result = winMessage;
     } else if (hostChoice === ROCK_TXT && playerChoice === SPOCK_TXT) {
-        result = 'You Win!';
+        result = winMessage;
     } else if (hostChoice === SCISSORS_TXT && playerChoice === SPOCK_TXT) {
-        result = 'You Win!';
+        result = winMessage;
     }
     displayResult.innerHTML = result;
-    if (result === 'You Win!') {
+    if (result === winMessage) {
         playerScore();
-    } else if (result === 'Better Luck Next Time.') {
+    } else if (result === loseMessage) {
         hostScore();
     }
 }
@@ -120,7 +120,10 @@ function hostScore() {
 /** Reset scores to 0 when function is called */
 function resetScore() {
     if (confirm('Are you sure?') == true) {
-    document.getElementById('player-score').innerText = 0;
-    document.getElementById('host-score').innerText = 0;        
+        document.getElementById('player-score').innerText = 0;
+        document.getElementById('host-score').innerText = 0;
     }
 }
+
+/** Game will play once all other content is loaded */
+addEventListener('DOMContentLoaded', initialGame);
