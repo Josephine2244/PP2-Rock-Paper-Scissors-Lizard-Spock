@@ -8,21 +8,24 @@
     <title>Rock Paper Scissors Lizard Spock</title>
   </head>
   <body>
-    <section class="title-area">
-      <h1>Rock Paper Scissors Lizard Spock</h1>
-    </section>
+    <header class="title-area">
+      <nav class="nav-bar">
+        <h1>Rock Paper Scissors Lizard Spock</h1>
+        <ul>
+          <li class="nav-link"><a href="#rules">How To Play</a></li>
+          <li class="nav-link"><a href="#game-area">Play Game</a></li>
+        </ul>
+      </nav>
+    </header>
     <!-- Main game area -->
     <section id="game-area" class="game-area">
       <div class="overlay">
-        <nav class="nav-bar">
-            <a href="#rules">How To Play</a>
-        </nav>
         <div class="main-play">
           <h2>You: <span id="player-choice"></span></h2>
           <h2>Host: <span id="host-choice"></span></h2>
         </div>
         <div class="result">
-          <h2>Result:<br><span id="result">?</span></h2>
+          <h2>Result:<br /><span id="result">?</span></h2>
         </div>
         <!-- The buttons the players use to make their selection -->
         <div class="player-buttons">
@@ -44,11 +47,9 @@
 
         <!-- Reset button -->
         <div class="reset">
-          <button
-            aria-label="reset"
-            class="reset-button"
-            id="reset"
-            >Reset Game</button>
+          <button aria-label="reset" class="reset-button" id="reset">
+            Reset Game
+          </button>
         </div>
       </div>
     </section>
@@ -68,9 +69,6 @@
         <li>Spock vaporizes Rock</li>
         <li>Rock crushes Scissors</li>
       </ul>
-            <nav class="rules-nav">
-                <a href="#game-area">Play Game</a>
-            </nav>
     </section>
     <footer class="footer">
       <ul class="socials">
