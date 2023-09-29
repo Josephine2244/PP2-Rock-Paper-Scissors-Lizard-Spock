@@ -5,6 +5,7 @@ let playerOptions = document.getElementsByClassName('player');
 let playerChoice = null;
 let hostChoice = null;
 let result = null;
+let roundsPlayed = 0;
 const winMessage = 'You Win!';
 const loseMessage = 'Better Luck Next Time.';
 const tieMessage = 'Its a Tie!';
@@ -27,6 +28,24 @@ function onPlayerOptionClick(event) {
     displayPlayerChoice.innerHTML = playerChoice;
     randomHostChoice();
     whoWins();
+    roundsPlayed++;
+}
+
+function completeRound() {
+    if (document.getElementById('player-score').innerText === 5) {
+        alert('You Win the Round!');
+    } else if (document.getElementById('host-score').innerText === 5) {
+        alert('The Host Wins the Round!');
+    }
+    resetScore();
+}
+
+function firstToFive() {
+    let thePlayerScore = parseInt(document.getElementById('player-score').innerText);
+    let theHostScore = parseInt(document.getElementById('host-score').innerText);
+    if (roundsPlayed === 9 || thePlayerScore === 5 || theHostScore === 5) {
+        completeRound();
+    }
 }
 
 /** How the host makes its random choice */
@@ -102,6 +121,7 @@ function whoWins() {
     } else if (result === loseMessage) {
         hostScore();
     }
+    firstToFive();
 }
 
 /** Incrementing players score when they win */
