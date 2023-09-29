@@ -302,6 +302,11 @@ h1 {
     .overlay {
         width: 95%;
     }
+
+    .rounds {
+        font-size: 100%;
+        text-align: center;
+    }
 }
 
 /* For screens (max-width: 950px) e.g iPad */
