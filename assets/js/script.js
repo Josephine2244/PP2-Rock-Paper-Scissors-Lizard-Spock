@@ -48,7 +48,10 @@ function firstToFive() {
         completeRound();
     }
     if (thePlayerScore === 5) {
+        alert('You Beat the Host!');
         roundCounter();
+    } else if (theHostScore === 5) {
+        alert('The Host wins!');
     }
 }
 
