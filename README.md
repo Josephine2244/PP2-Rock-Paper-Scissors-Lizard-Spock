@@ -1,6 +1,6 @@
 <h1 align="center">Rock, Paper, Scissors, Lizard, Spock</h1>
 
-![Responsive Image](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/70f95fc6-8183-4e97-a7e6-f247d8369392)
+![Responsive Image](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/08d9e574-00ad-420c-87cb-e6e60c223c11)
 
 [View Live Project here](https://josephine2244.github.io/PP2-Rock-Paper-Scissors-Lizard-Spock/)
 
@@ -31,7 +31,7 @@ This is a fun, interactive, online game that gives players the chance to play ag
 ## Star Trek themed Title
 The title is in a vibrant red which draws the users attention. It is also in the font Federant to inkeep with the theme of the game space.
 
-![RPSLS Title](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/53b43366-143d-484c-b5aa-6eb00486ea76)
+![RPSLS Title](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/66dde22f-34a7-4ae5-a0ba-39e6bd2f227b)
 
 ## Interactive Game Area
 The game area displays the players choice and the hosts choice clearly in text and with a symbol to ensure ease of play. All sections have a different colour font to emphasise the different features of the game.
@@ -46,11 +46,10 @@ There are 5 buttons for the player to make their choice with. Each button has th
 ## Results
 The results area displays either 'Better Luck Next Time.' or 'You Win!' depending on the outcome of the game. This means players are not having to constantly check the rules to see who has won if they are not familiar with the rules before playing.
 
-![Result tie](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/273a06fa-a0dc-4d71-9ff0-c39c03e3914c)
-
-![Result area](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/6f909581-d1da-4cc1-a2a6-38ad30e8c627)
-
-![Result area 2](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/cb0dab0d-9ab5-4b04-8b6c-49e21f255aa0)
+![Result](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/33cb5f98-ffc1-45bc-ae2a-f3cece53e839)
+![Result area](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/efaa1c83-ce19-4a42-82c0-1b0df95aee0b)
+![Result area 2](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/5a630507-69fb-4372-91db-c62599478beb)
+![Result tie](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/707ac4b9-f051-4fb9-ba3c-ae305b784b12)
 
 ## Scoreboard
 There is a scoreboard at the bottom of the game area so the player can keep track of their wins and losses.
@@ -63,9 +62,14 @@ At the bottom of the game area I have included a reset button so players can res
 ![Reset Button](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/eef61e10-c34f-4b70-abe3-49dbfeca3b11)
 
 ## How to Play Section
-This section contains an image explaining how the symbols interact with eachother. This image will also zoom when hovered over (or clicked on smaller screens), and has a contrasting background color to make it easier to read.
+This section contains an image explaining how the symbols interact with eachother. The background color and title help the page flow from the game section to the how to play section.
 
-![RPSLS How to Play](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/6e27d24d-0ccf-4b7c-b646-0fa92a4809f6)
+![RPSLS How to Play](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/1cd7b238-7346-48db-93bf-2a72d4746f0e)
+
+## Footer
+The footer contains links to all the social media related to the page and also contains a copyright mark.
+
+![footer](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/de136218-9bf0-4fda-8037-abc3b0e59946)
 
 # Future Features
 - Multiplayer: The ability to play with another person (online or using the same device) instead of always playing the computer.
@@ -78,7 +82,7 @@ The fonts I chose are Federant and Merriweather. Federant is very similar to the
 
 # Wireframes
 
-![Game Browser View](https://github.com/Josephine2244/rock-paper-scissors-lizard-spock/assets/137813807/938f6eac-68c3-49a6-8f65-0490f8cdc355)
+![Game Browser View](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/989dd24e-174e-406f-90a2-2aab32215241)
 
 # Technology
 ## Languages Used
@@ -107,16 +111,16 @@ The fonts I chose are Federant and Merriweather. Federant is very similar to the
 
 [Javascript Validator Used](https://jshint.com/)
 
-![JSHint](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/c227a001-0664-48ca-819f-adf9a45d2c5e)
+![JSHint](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/792aaab7-46da-4e8f-9b60-8f4af0eddca6)
 
 ## Lighthouse Results
 
-![Lighthouse](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/d37e369d-5fb7-4851-9d8a-a04ea7ef4ef9)
+![Lighthouse](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/d185ba2e-72ef-497a-9c0a-4caedfd9c4f6)
 
 ## Test Cases
 | ID | Test Subject | Steps Taken | Outcome Generater |
 |----|--------------|-------------|-------------------|
-| 01 | Header | Go to website and check appearance of title | Title is legible and positioned appropriately |
+| 01 | Header | Go to website and check appearance of title, click how to play link | Title is legible and positioned appropriately, how to play link brings me to the how to play section of the page |
 | 02 | Background image and overlay | Check appearance of background and overlay | Image covers full background of the chosen size of the game area. The overlay is working to make the text legible. Both have been positioned appropriately |
 | 03 | Display of choices | Check appearance of section that displays the choices of the player and the host | Text is legible and positioned appropriately. Both are currently empty as no selections have been made |
 | 04 | Results Section | Check appearance of results section | Text is legible and positioned appropriately. It is currently empty as no selections have been made to produce a result |
@@ -127,24 +131,32 @@ The fonts I chose are Federant and Merriweather. Federant is very similar to the
 | 09 | Lizard Section | Click button | 'Lizard' and lizard symbol are displayed in the 'You' section. Host has generated a random choice. Result is displayed appropriate message. Scores are incremented appropriately |
 | 10 | Spock Button | Click button | 'Spock' and spock symbol are displayed in the 'You' section. Host has generated a random choice. Result is displayed appropriate message. Scores are incremented appropriately |
 | 11 | Scores section | Check appearance | Scores are legible and positioned appropriatelely. Scores increment correctly after each play |
-| 12 | Reset Button | Check appearance of button, click button | Button is clearly legible and positioned appropriately. Scores reset when button is clicked |
-| 13 | How to Play | Check appearance | Image is cearly legible and positioned appropriately.|
+| 12 | Reset Button | Check appearance of button, click button | Button is clearly legible and positioned appropriately. Confirm message appears. Score is not reset |
+| 13 | Confirm Reset | Click Ok | Score is now reset. Rounds counter also resets |
+| 14 | Complete Round | Play until one of the scores reach 5 | Pop Up message appears |
+| 15 | Player Wins | Play until You score reaches 5 | Pop up message appears telling player they beat the host. |
+| 16 | Pop Up | Click ok on pop up message | Scores reset and the Rounds counter increments properly |
+| 17 | Rounds Won | Check appearance of Rounds Won Counter | Counter is positioned appropriately and increments correctly |
+| 18 | Host Wins | Play until Host score reaches 5 | Pop up message appears telling player they were beaten by the host. Rounds won counter does not change |
+| 19 | Pop Up | Click ok on pop up message | Scores reset and Rounds counter does not increment |
+| 21 | How to Play | Check appearance | Image is cearly legible and positioned appropriately |
+| 21 | Footer | Check appearance of social media links and copyright, click each social media link | Each link open the social nedia website in a new tab, all icons and copyright are positioned appropriately |
 
 ### 01
-![RPSLS Title](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/b77569dc-f37c-4c04-aef6-dee4b0531947)
+![RPSLS Title](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/60cf3cdf-1d03-4fac-a151-a09648a18768)
 
 ### 02
-![Game Area blank](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/55bd5067-788a-48c3-b850-eb421ba2f2ba)
+![Game Area blank](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/e9aabba2-885c-41e2-aa11-14de3d469005)
 
 ### 03
 ![Choices](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/cf351a39-112b-4f95-b01a-d1993881237d)
 ![Players choices](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/e9a85937-c872-4dc3-b9d3-58d058deeaa6)
 
 ### 04
-![Result](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/a03add1e-9ceb-4f5d-9c63-6cda26f4dbb9)
-![Result tie](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/04f720a1-8978-4a01-91ac-7f1ec12d1907)
-![Result area](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/b46db5ba-57f6-41a4-a0ee-60000e5e7a4c)
-![Result lose](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/9c4e4bc5-e3c9-42b8-ad71-12d929cee4ef)
+![Result](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/33cb5f98-ffc1-45bc-ae2a-f3cece53e839)
+![Result area](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/efaa1c83-ce19-4a42-82c0-1b0df95aee0b)
+![Result area 2](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/5a630507-69fb-4372-91db-c62599478beb)
+![Result tie](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/707ac4b9-f051-4fb9-ba3c-ae305b784b12)
 
 ### 05
 ![Buttons area](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/6f15437d-ce2f-4450-8e54-20d27b91ab3d)
@@ -176,7 +188,25 @@ The fonts I chose are Federant and Merriweather. Federant is very similar to the
 ![Reset Button](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/eef61e10-c34f-4b70-abe3-49dbfeca3b11)
 
 ### 13
-![RPSLS How to Play](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/f9573961-19fa-40f9-8c65-1891c93c621d)
+![Confirm message](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/4b8e88ca-6c15-4730-a1fa-937a24ed4091)
+
+### 14
+![round-counter](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/5507a83f-622b-4976-a714-11d898228d76)
+
+### 15 & 16
+![You win](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/4df205b1-9fe4-4498-93ee-c8812c354770)
+
+### 17
+![round-counter](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/03537805-aeb7-46e3-8594-0863c525c7cf)
+
+### 18
+![host wins](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/c37838ae-930a-472a-a691-8f937a3c4a12)
+
+### 19
+![RPSLS How to Play](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/22ed7a5b-9a5a-4df8-b762-69023e528a88)
+
+### 20
+![footer](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/3208499a-ff8d-4729-9a44-c7131cf38287)
 
 ## Fixed Bugs
 - Background image was too bold and made it hard to read the text. I added an overlay to dull the image and make the text more legible.
