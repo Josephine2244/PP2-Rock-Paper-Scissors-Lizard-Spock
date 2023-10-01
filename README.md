@@ -17,12 +17,12 @@ This is a fun, interactive, online game that gives players the chance to play ag
 8. [Credits](#credits)
 
 # User Stories
-## First Time User Stories
-- As a first time user, I want to play the game against the computer.
-- As a first time user, I want the game controls to be easy to understand.
-- As a first time user, I want to keep score of each win.
-- As a first time user, I want to have instructions of which play beats which.
-- As a first time user, I want to be able to reset the scores and start again.
+## User Stories
+- As a visiting user, I want to play the game against the computer.
+- As a visiting user, I want the game controls to be easy to understand.
+- As a visiting user, I want to keep score of each win.
+- As a visiting user, I want to have instructions of which play beats which.
+- As a visiting user, I want to be able to reset the scores and start again.
 
 ## Returning User Stories
 - As a returning user, I want to be able to navigate the game easily and play repeatedly without issue.
@@ -250,3 +250,5 @@ The fonts I chose are Federant and Merriweather. Federant is very similar to the
 - Game Setup based on youtube video [here](https://www.youtube.com/watch?v=RwFeg0cEZvQ)
 - [Google Fonts](https://fonts.google.com/)
 - [Font Awesome](https://fontawesome.com/)
+
+A thank you to my mentor Rohit for all his valuable advice and feedback throughout this project.
