@@ -6,9 +6,9 @@ let playerChoice = null;
 let hostChoice = null;
 let result = null;
 let roundsPlayed = 0;
-const winMessage = 'You Win!';
-const loseMessage = 'Better Luck Next Time.';
-const tieMessage = 'Its a Tie!';
+const WIN_MESSAGE = 'You Win!';
+const LOSE_MESSAGE = 'Better Luck Next Time.';
+const TIE_MESSAGE = 'Its a Tie!';
 const ROCK_TXT = 'Rock ⛰️';
 const PAPER_TXT = 'Paper 📃';
 const SCISSORS_TXT = 'Scissors ✂️';
@@ -16,7 +16,7 @@ const LIZARD_TXT = 'Lizard 🦎';
 const SPOCK_TXT = 'Spock 🖖';
 
 /** Game will start once player makes their choice */
-function initialGame() {
+function initialiseGame() {
     Array.from(playerOptions).forEach(playerOption => playerOption.addEventListener('click', onPlayerOptionClick));
     /** Scores will reset when reset button is clicked */
     document.getElementById('reset').addEventListener('click', resetScore);
@@ -26,37 +26,39 @@ function initialGame() {
 function onPlayerOptionClick(event) {
     playerChoice = event.target.textContent;
     displayPlayerChoice.innerHTML = playerChoice;
-    randomHostChoice();
-    whoWins();
+    showHostChoice();
+    getResult();
     roundsPlayed++;
 }
 
+/** Round is complete once a players score reaches 5 */
 function completeRound() {
     if (document.getElementById('player-score').innerText === 5) {
-        return "You Win the Round! Reset Game to play again.";
+        displayPlayerScore();
     } else if (document.getElementById('host-score').innerText === 5) {
-        return "The Host Wins the Round! Reset Game to play again";
+        displayHostScore();
     }
     document.getElementById('player-score').innerText = 0;
     document.getElementById('host-score').innerText = 0;
 }
 
+/** Alert messages pop up when a score reaches five to tell player who has won  */
 function firstToFive() {
-    let thePlayerScore = parseInt(document.getElementById('player-score').innerText);
-    let theHostScore = parseInt(document.getElementById('host-score').innerText);
-    if (roundsPlayed === 9 || thePlayerScore === 5 || theHostScore === 5) {
+    let displayPlayerScore = parseInt(document.getElementById('player-score').innerText);
+    let displayHostScore = parseInt(document.getElementById('host-score').innerText);
+    if (roundsPlayed === 9 || displayPlayerScore === 5 || displayHostScore === 5) {
         completeRound();
     }
-    if (thePlayerScore === 5) {
+    if (displayPlayerScore === 5) {
         alert('You Beat the Host!');
-        roundCounter();
-    } else if (theHostScore === 5) {
+        incrementRoundCounter();
+    } else if (displayHostScore === 5) {
         alert('The Host wins!');
     }
 }
 
 /** How the host makes its random choice */
-function randomHostChoice() {
+function showHostChoice() {
     const randomNumber = Math.floor(Math.random() * playerOptions.length) + 1;
 
     if (randomNumber === 1) {
@@ -77,73 +79,73 @@ function randomHostChoice() {
     displayHostChoice.innerHTML = hostChoice;
 }
 
-/** How the game determines who wins */
-function whoWins() {
+/** How the game determines the result */
+function getResult() {
     if (hostChoice === playerChoice) {
-        result = tieMessage;
+        result = TIE_MESSAGE;
     } else if (hostChoice === SCISSORS_TXT && playerChoice === PAPER_TXT) {
-        result = loseMessage;
+        result = LOSE_MESSAGE;
     } else if (hostChoice === SCISSORS_TXT && playerChoice === LIZARD_TXT) {
-        result = loseMessage;
+        result = LOSE_MESSAGE;
     } else if (hostChoice === PAPER_TXT && playerChoice === ROCK_TXT) {
-        result = loseMessage;
+        result = LOSE_MESSAGE;
     } else if (hostChoice === PAPER_TXT && playerChoice === SPOCK_TXT) {
-        result = loseMessage;
+        result = LOSE_MESSAGE;
     } else if (hostChoice === ROCK_TXT && playerChoice === LIZARD_TXT) {
-        result = loseMessage;
+        result = LOSE_MESSAGE;
     } else if (hostChoice === ROCK_TXT && playerChoice === SCISSORS_TXT) {
-        result = loseMessage;
+        result = LOSE_MESSAGE;
     } else if (hostChoice === LIZARD_TXT && playerChoice === SPOCK_TXT) {
-        result = loseMessage;
+        result = LOSE_MESSAGE;
     } else if (hostChoice === LIZARD_TXT && playerChoice === PAPER_TXT) {
-        result = loseMessage;
+        result = LOSE_MESSAGE;
     } else if (hostChoice === SPOCK_TXT && playerChoice === ROCK_TXT) {
-        result = loseMessage;
+        result = LOSE_MESSAGE;
     } else if (hostChoice === SPOCK_TXT && playerChoice === SCISSORS_TXT) {
-        result = loseMessage;
+        result = LOSE_MESSAGE;
     } else if (hostChoice === PAPER_TXT && playerChoice === SCISSORS_TXT) {
-        result = winMessage;
+        result = WIN_MESSAGE;
     } else if (hostChoice === LIZARD_TXT && playerChoice === SCISSORS_TXT) {
-        result = winMessage;
+        result = WIN_MESSAGE;
     } else if (hostChoice === ROCK_TXT && playerChoice === PAPER_TXT) {
-        result = winMessage;
+        result = WIN_MESSAGE;
     } else if (hostChoice === SPOCK_TXT && playerChoice === PAPER_TXT) {
-        result = winMessage;
+        result = WIN_MESSAGE;
     } else if (hostChoice === LIZARD_TXT && playerChoice === ROCK_TXT) {
-        result = winMessage;
+        result = WIN_MESSAGE;
     } else if (hostChoice === SCISSORS_TXT && playerChoice === ROCK_TXT) {
-        result = winMessage;
+        result = WIN_MESSAGE;
     } else if (hostChoice === SPOCK_TXT && playerChoice === LIZARD_TXT) {
-        result = winMessage;
+        result = WIN_MESSAGE;
     } else if (hostChoice === PAPER_TXT && playerChoice === LIZARD_TXT) {
-        result = winMessage;
+        result = WIN_MESSAGE;
     } else if (hostChoice === ROCK_TXT && playerChoice === SPOCK_TXT) {
-        result = winMessage;
+        result = WIN_MESSAGE;
     } else if (hostChoice === SCISSORS_TXT && playerChoice === SPOCK_TXT) {
-        result = winMessage;
+        result = WIN_MESSAGE;
     }
     displayResult.innerHTML = result;
-    if (result === winMessage) {
-        playerScore();
-    } else if (result === loseMessage) {
-        hostScore();
+    if (result === WIN_MESSAGE) {
+        displayPlayerScore();
+    } else if (result === LOSE_MESSAGE) {
+        displayHostScore();
     }
     firstToFive();
 }
 
 /** Incrementing players score when they win */
-function playerScore() {
+function displayPlayerScore() {
     let oldScore = parseInt(document.getElementById('player-score').innerText);
     document.getElementById('player-score').innerText = ++oldScore;
 }
 
 /** Incrementing host score when they win */
-function hostScore() {
+function displayHostScore() {
     let oldScore = parseInt(document.getElementById('host-score').innerText);
     document.getElementById('host-score').innerText = ++oldScore;
 }
 
-function roundCounter() {
+function incrementRoundCounter() {
     let roundsPlayed = parseInt(document.getElementById('round-counter').innerText);
     document.getElementById('round-counter').innerText = ++roundsPlayed;
 }
@@ -158,4 +160,4 @@ function resetScore() {
 }
 
 /** Game will play once all other content is loaded */
-addEventListener('DOMContentLoaded', initialGame);
+addEventListener('DOMContentLoaded', initialiseGame);
