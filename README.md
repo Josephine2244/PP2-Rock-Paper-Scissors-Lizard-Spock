@@ -33,6 +33,9 @@ The title is in a vibrant red which draws the users attention. It is also in the
 
 ![RPSLS Title](https://github.com/Josephine2244/PP2-Rock-Paper-Scissors-Lizard-Spock/assets/137813807/66dde22f-34a7-4ae5-a0ba-39e6bd2f227b)
 
+## Rounds Won Counter
+The game is first to score 5 points wins the round. The round counter keeps track of how many rounds the user has won.
+
 ## Interactive Game Area
 The game area displays the players choice and the hosts choice clearly in text and with a symbol to ensure ease of play. All sections have a different colour font to emphasise the different features of the game.
 
